@@ -1,0 +1,61 @@
+{
+  "common": { "cancel": "Cancel", "apply": "Apply", "clear": "Clear", "close": "Close", "free": "Free" },
+  "map": {
+    "all": "All",
+    "filter": "Filter",
+    "myLocation": "My location",
+    "noEventsHere": "No events in this area",
+    "noEventsHint": "Change the filters or be the first to post one.",
+    "zoomHint": "Zoom in to see events",
+    "locationDenied": "Location permission denied. You can still explore the map."
+  },
+  "cities": { "istanbul": "Istanbul", "izmir": "Izmir" },
+  "filters": {
+    "title": "Filters",
+    "time": "When",
+    "category": "Category",
+    "type": "Type",
+    "price": "Price",
+    "show": "Show {{count}} events",
+    "time_any": "Anytime",
+    "time_now": "Now",
+    "time_today": "Today",
+    "time_tonight": "Tonight",
+    "time_tomorrow": "Tomorrow",
+    "time_weekend": "Weekend",
+    "type_all": "All",
+    "type_user": "People",
+    "type_business": "Venues",
+    "price_all": "All",
+    "price_free": "Free",
+    "price_paid": "Paid"
+  },
+  "categories": {
+    "music": "Music",
+    "food": "Food",
+    "nightlife": "Nightlife",
+    "sports": "Sports",
+    "art": "Art",
+    "community": "Community",
+    "other": "Other"
+  },
+  "event": {
+    "going": "{{count}} going",
+    "join": "I'm going",
+    "joined": "You're going",
+    "host": "Host",
+    "business": "Venue",
+    "report": "Report",
+    "share": "Share",
+    "translate": "Translate",
+    "showOriginal": "Show original",
+    "tickets": "Tickets / details",
+    "directions": "Directions",
+    "startsNow": "Happening now",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "signInToJoin": "You need to sign in to join (coming soon).",
+    "reportThanks": "Thanks, your report was received (coming soon).",
+    "invalidLink": "This link isn't safe, so it wasn't opened."
+  }
+}

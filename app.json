@@ -1,33 +1,59 @@
 {
   "expo": {
-    "name": "anda",
+    "name": "Anda",
     "slug": "anda",
-    "version": "1.0.0",
+    "scheme": "anda",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "app.anda.mobile",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "app.anda.mobile",
+      "allowBackup": false,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFF4F1",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "predictiveBackGestureEnabled": false,
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "plugins": [
       "expo-router",
       "expo-localization",
       "expo-secure-store",
-      "expo-build-properties",
-      "expo-image",
-      "@maplibre/maplibre-react-native"
-    ]
+      "@maplibre/maplibre-react-native",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Anda, yakınındaki etkinlikleri göstermek için konumunu kullanır. / Anda uses your location to show events near you."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": false
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }

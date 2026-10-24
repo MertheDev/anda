@@ -1,0 +1,61 @@
+{
+  "common": { "cancel": "Vazgeç", "apply": "Uygula", "clear": "Temizle", "close": "Kapat", "free": "Ücretsiz" },
+  "map": {
+    "all": "Hepsi",
+    "filter": "Filtre",
+    "myLocation": "Konumuma git",
+    "noEventsHere": "Bu bölgede etkinlik yok",
+    "noEventsHint": "Filtreleri değiştir ya da ilk etkinliği sen paylaş.",
+    "zoomHint": "Etkinlikleri görmek için yakınlaştır",
+    "locationDenied": "Konum izni verilmedi. Haritayı elle gezebilirsin."
+  },
+  "cities": { "istanbul": "İstanbul", "izmir": "İzmir" },
+  "filters": {
+    "title": "Filtreler",
+    "time": "Zaman",
+    "category": "Kategori",
+    "type": "Tür",
+    "price": "Fiyat",
+    "show": "{{count}} etkinliği göster",
+    "time_any": "Her zaman",
+    "time_now": "Şimdi",
+    "time_today": "Bugün",
+    "time_tonight": "Bu akşam",
+    "time_tomorrow": "Yarın",
+    "time_weekend": "Hafta sonu",
+    "type_all": "Hepsi",
+    "type_user": "İnsanlar",
+    "type_business": "İşletmeler",
+    "price_all": "Hepsi",
+    "price_free": "Ücretsiz",
+    "price_paid": "Ücretli"
+  },
+  "categories": {
+    "music": "Müzik",
+    "food": "Yemek",
+    "nightlife": "Gece",
+    "sports": "Spor",
+    "art": "Sanat",
+    "community": "Topluluk",
+    "other": "Diğer"
+  },
+  "event": {
+    "going": "{{count}} kişi gidiyor",
+    "join": "Gidiyorum",
+    "joined": "Gidiyorsun",
+    "host": "Organizatör",
+    "business": "İşletme",
+    "report": "Şikayet et",
+    "share": "Paylaş",
+    "translate": "Çevir",
+    "showOriginal": "Orijinali göster",
+    "tickets": "Bilet / detay",
+    "directions": "Yol tarifi",
+    "startsNow": "Şimdi başladı",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "signInToJoin": "Katılmak için giriş yapmalısın (yakında).",
+    "reportThanks": "Teşekkürler, şikayetin alındı (yakında).",
+    "invalidLink": "Bu bağlantı güvenli değil, açılmadı."
+  }
+}
