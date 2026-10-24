@@ -26,7 +26,6 @@ export async function openExternalUrl(input: string | undefined | null): Promise
 
 /** Strips control characters and collapses whitespace in user-provided text. */
 export function cleanText(input: string, maxLength: number): string {
-  // eslint-disable-next-line no-control-regex
   return input.replace(/[\u0000-\u001F\u007F]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, maxLength);
 }
 

@@ -30,6 +30,8 @@ export interface AndaEvent {
   capacity?: number;
   attendees: Attendee[];
   attendeeCount: number;
+  /** Whether the signed-in user is going. Only known when loaded from the backend. */
+  joined?: boolean;
   /** Must be https. Validated before opening. */
   ticketUrl?: string;
 }
