@@ -47,3 +47,6 @@ yarn-error.*
 *.keystore
 supabase/.temp/
 supabase/.branches/
+
+# IDE
+.idea/
