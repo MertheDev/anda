@@ -50,3 +50,8 @@ supabase/.branches/
 
 # IDE
 .idea/
+graphify-out/
+
+# local notes for the coding assistant
+CLAUDE.md
+.claude/
